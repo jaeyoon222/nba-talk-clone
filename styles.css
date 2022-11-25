@@ -3,24 +3,18 @@ body {
     height: 100vh;
 }
 
-div {
-    width: 200px;
-    height: 200px;
-    background-color: tan;
-}
-
-div:first-child{
-    background-color: pink;
-}
-
-div:nth-child(3){
+span {
     background-color: gold;
 }
 
-span{
-    background-color: gold;
-}
-
-span:nth-child(2n){
+p span {
     background-color: yellowgreen;
+}
+
+div > span {
+    text-decoration: underline;
+}
+
+div + span{
+    background-color: tan;
 }
