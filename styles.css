@@ -3,18 +3,14 @@ body {
     height: 100vh;
 }
 
-span {
-    background-color: gold;
+input {
+    border: 1px solid wheat;
 }
 
-p span {
-    background-color: yellowgreen;
+input:required {
+    border-color: orangered;
 }
 
-div > span {
-    text-decoration: underline;
-}
-
-div + span{
-    background-color: tan;
+input[placeholder~="username"] {
+    background-color: tan
 }
