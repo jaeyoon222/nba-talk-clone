@@ -7,10 +7,14 @@ div {
     width: 200px;
     height: 200px;
     background-color: teal;
+    position: relative;
 }
 
-.third {
-    position: fixed;
-    left: 100px;
+.tan {
+    width: 100px;
+    height: 100px;
     background-color: tan;
+    position: absolute;
+    left: 20px;
+    top: 50px;
 }
