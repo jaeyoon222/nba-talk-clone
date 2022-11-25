@@ -6,15 +6,21 @@ body {
 div {
     width: 200px;
     height: 200px;
-    background-color: teal;
-    position: relative;
+    background-color: tan;
 }
 
-.tan {
-    width: 100px;
-    height: 100px;
-    background-color: tan;
-    position: absolute;
-    left: 20px;
-    top: 50px;
+div:first-child{
+    background-color: pink;
+}
+
+div:nth-child(3){
+    background-color: gold;
+}
+
+span{
+    background-color: gold;
+}
+
+span:nth-child(2n){
+    background-color: yellowgreen;
 }
