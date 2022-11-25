@@ -1,23 +1,16 @@
 body {
     margin: 20px;
     height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    flex-direction: column;
 }
 
 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: tan;
     width: 200px;
     height: 200px;
     background-color: teal;
 }
 
-.second {
-    background-color: pink;
+.third {
+    position: fixed;
+    left: 100px;
+    background-color: tan;
 }
