@@ -2,16 +2,14 @@ body {
     margin: 20px;
 }
 
-span {
+div {
+    display:block;
+    width: 200px;
+    height: 200px;
     background-color: teal;
-    border-radius: 5px;
-    padding: 10px;
 }
 
-.orange {
-    background-color: orange;
-}
-
-.pink {
+.inline-block{
+    display: inline-block;
     background-color: pink;
 }
