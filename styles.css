@@ -1,15 +1,23 @@
 body {
     margin: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
 }
 
 div {
-    display:block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tan;
     width: 200px;
     height: 200px;
     background-color: teal;
 }
 
-.inline-block{
-    display: inline-block;
+.second {
     background-color: pink;
 }
