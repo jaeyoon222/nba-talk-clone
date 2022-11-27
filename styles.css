@@ -1,45 +1,14 @@
+:root {
+    --main-color: rgba(255, 215, 0, 1);
+    --default-border: 1px solid grey;
+}
+
 body {
     margin: 20px;
     height: 100vh;
 }
 
-button {
-    background-color: tan;
+p {
+    background-color: var(--main-color);
+    border: var(--default-border);
 }
-
-/* button:active {
-    background-color: yellowgreen;
-} */
-
-button:hover {
-    background-color: slateblue;
-}
-
-button:focus {
-    background-color: orangered;
-}
-
-a:visited {
-    color: orange;
-}
-
-a:hover {
-    color: darkolivegreen;
-    text-decoration: none;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-    padding: 10px;
-}
-
-form:focus-within {
-    background-color: purple;
-}
-
-input:hover {
-    background-color: gold;
-}
-
