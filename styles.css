@@ -3,14 +3,43 @@ body {
     height: 100vh;
 }
 
-input {
-    border: 1px solid wheat;
+button {
+    background-color: tan;
 }
 
-input:required {
-    border-color: orangered;
+/* button:active {
+    background-color: yellowgreen;
+} */
+
+button:hover {
+    background-color: slateblue;
 }
 
-input[placeholder~="username"] {
-    background-color: tan
+button:focus {
+    background-color: orangered;
 }
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+form:focus-within {
+    background-color: purple;
+}
+
+input:hover {
+    background-color: gold;
+}
+
