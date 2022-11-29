@@ -1,18 +1,45 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
     <head>
-        <link
-            rel="shortcut icon"
-            sizes="16x16 32x32 64x64"
-            href="https://nomadcoders.co/m.png"
-        />
-        <title>My Website</title>
         <meta charset="UTF-8" />
-        <meta name="description" content="this is my website." />
-        <link href="styles.css" rel="stylesheet" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>NBA-Talk</title>
     </head>
     <body>
-        <div></div>
-        <span>box!</span>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>Korea SKT </span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>02:22</span>
+                <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+        </div>
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to NBA Talk</h1>
+            <span class="welcome-header__text">
+                If you hace a NBA Account, log in with your email or phone
+                number.
+            </span>
+        </header>
+        <form action="friends.html" class="login-form">
+            <input type="text" placeholder="Email or Phone number" />
+            <input type="password" placeholder="Password" />
+            <input type="submit" value="Log In" />
+            <input type="submit" value="Sign Up" />
+            <a href="#">Find NBA Account or Password</a>
+        </form>
+        <script
+            src="https://kit.fontawesome.com/c18c6cdbfe.js"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>
