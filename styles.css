@@ -3,30 +3,38 @@
     --default-border: 1px solid grey;
 }
 
-@keyframes iconMove {
-    0% {
-        transform: scale(0.25);
-    }
-    50% {
-        transform: scale(0.5);
-        border-radius: 20px;
-    }
-    100% {
-        transform: scale(1);
-        border-radius: 5px;
-        
-    }
-}
-
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 20px;
     height: 100vh;
 }
 
-img {
-    border-radius: 50%;
-    border: var(--default-border);
-    animation: iconMove 2s ease-in-out infinite;
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+@media screen and (max-width: 500px) {
+    div {
+        background-color: tan;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    div {
+        background-color: violet;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    div {
+        background-color: teal;
+    }
+    span {
+        display: none;
+    }
 }
