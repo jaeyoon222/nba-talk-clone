@@ -8,15 +8,12 @@ body {
     height: 100vh;
 }
 
-a {
-    font-size: 40px;
-    text-decoration: none;
-    background-color: var(--main-color);
-    color: tomato;
-    border-radius: 10px;
-    transition: all 1s ease-in-out;
+img {
+    border-radius: 50%;
+    border: var(--default-border);
+    transition: transform 2s ease-in-out;
 }
-a:hover {
-    background-color: tomato;
-    color: var(--main-color);
+
+img:hover {
+    transform: rotateY(180deg) scale(0.5);
 }
