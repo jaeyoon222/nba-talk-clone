@@ -1,0 +1,38 @@
+.nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-notification {
+    background-color: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.nav-notification__add{
+  width: 5px;
+  height: 5px;
+  left: 30px;
+  bottom: 30px;
+}
