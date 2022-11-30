@@ -9,6 +9,7 @@
 
 /* Screens */
 @import "/css/screens/login.css";
+@import "/css/screens/friends.css";
 
 body {
     font-family: "Open Sans", sans-serif;
