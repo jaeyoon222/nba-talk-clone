@@ -7,6 +7,7 @@
 @import "/css/components/nav-bar.css";
 @import "/css/components/screen-header.css";
 @import "/css/components/user-component.css";
+@import "/css/components/badge.css";
 
 /* Screens */
 @import "/css/screens/login.css";
@@ -14,4 +15,8 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+}
+
+.main-screen {
+    margin: 100px var(--horizontal-space);
 }

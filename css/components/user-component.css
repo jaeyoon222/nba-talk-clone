@@ -10,9 +10,14 @@
     align-items: center;
 }
 
-.user-component__column span, i {
-    margin-left: 10px;
-
+.user-component__column:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.user-component__column i {
+    color:rgba(0, 0, 0, 0.6)
 }
 
 .user-component__avatar {
@@ -42,3 +47,11 @@
     margin-top: 10px;
 }
 
+.user-component__time {
+    font-weight: 400;
+    font-size: 15px;
+    color:gray;    
+    position:relative;
+    padding-bottom: 35px;
+    z-index: -1;
+}

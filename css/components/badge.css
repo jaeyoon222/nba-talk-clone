@@ -1,0 +1,25 @@
+.badge {
+    background-color: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.badge__empty {
+    width: 5px;
+    height: 5px;
+    left: 30px;
+    bottom: 30px;
+}
+
+.badge__time {
+  top: 20px;
+  left: 10px;
+}
