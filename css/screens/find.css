@@ -1,0 +1,105 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    margin-top: 20px;
+}
+
+.find-icons__icon span {
+    margin-top: 10px;
+}
+
+.recommended-friends {
+    padding: 10px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.recommended-friends__title {
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat {
+    padding: 10px 0px;
+}
+
+.open-chat__header {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.open-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.open-post__title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.open-post__hashtag {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 5px;
+}
+
+.open-post__members {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.open-post__members img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-post__members-count {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.open-post__members .divider {
+    width: 1px;
+    height: 10px;
+    margin: 0 5px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.open-post__members-status {
+    color: var(--red);
+    margin-left: 5px;
+}
+
+.open-post__photo {
+    position: relative;
+}
+
+.open-post__photo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.open-post__like-count {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
