@@ -1,22 +1,4 @@
-.find-icons {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px;
-}
 
-.find-icons__icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    width: 25%;
-    margin-top: 20px;
-}
-
-.find-icons__icon span {
-    margin-top: 10px;
-}
 
 .recommended-friends {
     padding: 10px 0px;
