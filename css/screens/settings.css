@@ -1,0 +1,12 @@
+.settings-list {
+    margin-top: 110px;
+}
+
+.settings-setting {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: var(--horizontal-space);
+}
+.settings-setting span {
+    font-size: 20px;
+    margin-left: 20px;
+}
