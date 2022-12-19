@@ -1,6 +1,5 @@
 #chat-screen {
     background-color: var(--blue);
-    height: 1000vh;
 }
 
 .timestamp {
@@ -19,6 +18,7 @@
 }
 
 .message-row {
+    width: 100%;
     margin-top: 20px;
     display: flex;
     color: rgba(255, 255, 255, 1);
@@ -68,4 +68,53 @@
 .message-time {
     font-size: small;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.reply {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.reply-column:first-child {
+    width: 10%;
+    color: rgba(0, 0, 0, 1);
+}
+
+.reply-column:last-child {
+    width: 90%;
+    display: flex;
+    position: relative;
+    margin-right: 5px;
+}
+
+.reply-column input {
+    width: 93%;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px, solid, rgba(0, 0, 0, 1);
+}
+
+.reply-button__list {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.reply-button__list span i {
+    font-size: 26px;
+}
+.reply-button__list button {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 1);
+    margin-left: 5px;
+    border-style: none;
+    color: rgba(255, 255, 255, 1);
 }
